@@ -8,7 +8,7 @@ import MultiplayerGame from './MultiplayerGame';
 
 function Layout() {
     return (
-        <div className="w-dvw flex flex-col justify-center items-center px-8">
+        <div className="w-dvw flex flex-col justify-center items-center px-8 bg-bg">
             <NavigationBar />
             <div className="flex flex-col justify-center items-center w-full max-w-md lg:max-w-7xl">
                 <Outlet />
