@@ -131,7 +131,7 @@ const SoloGame = () => {
   }
 
   return (
-    <div className="max-w-2xl w-full flex flex-col items-center justify-center py-20 my-24 gap-10">
+    <div className="max-w-2xl w-full flex flex-col items-center justify-center py-20 mt-24 gap-10">
       <Card className='w-full font-work font-heading gap-4 bg-main max-w-2xl flex justify-center items-center text-xl'>
         <p>{`Speed: ${speed} wpm`}</p>
         <p>{`Accuracy: ${accuracy}%`}</p>
