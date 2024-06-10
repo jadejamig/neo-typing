@@ -50,7 +50,10 @@ export default function Dropdown({
             <div
               key={index}
               className="cursor-pointer block w-full border-b-2 border-black bg-main px-7 py-3 no-underline first:rounded-t-base last:rounded-b-base hover:bg-mainAccent"
-              onClick={() => navigate(item.link)}
+              onClick={() => {
+                navigate(item.link)
+                setIsActiveDropdown(false)
+              }}
             >
               {item.name}
             </div>
