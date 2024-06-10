@@ -7,6 +7,7 @@ import { LastLocationProvider } from 'react-router-dom-last-location';
 import { Provider } from 'react-redux';
 import store from './store/store.ts';
 import { Toaster } from 'sonner';
+import { Analytics } from "@vercel/analytics/react"
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Provider store={store}>
           <App />
           <Toaster />
+          <Analytics/>
         </Provider>
       </LastLocationProvider>
     </Router>
