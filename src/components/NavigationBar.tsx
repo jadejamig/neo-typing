@@ -25,7 +25,7 @@ export default function NavigationBar() {
   ]
   
   return (
-    <div className="fixed top-0 z-50 flex justify-center items-center w-full bg-white h-24 outline outline-black">
+    <div className="fixed top-0 z-50 flex justify-center items-center w-full bg-white h-24 shadow-2 shadow-bottom4px">
         <div className='flex justify-between items-center max-w-7xl w-full px-8'>
             <div className='flex gap-8'>
               <h1 onClick={handleNaavigate} className="text-4xl md:text-5xl font-bold font-work cursor-pointer">Typrr</h1>
